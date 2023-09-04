@@ -1,0 +1,358 @@
+
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+.foot-container1 {
+    width: 88vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list {
+    width: 70%;
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1%;
+    padding: 1%;
+}
+
+.list>li {
+    /* border:2px solid orange; */
+    width: 33%;
+    font-size: 1.2rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.play-store-box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1%;
+    padding: 1%;
+    /* border: 2px solid blue; */
+}
+
+.play-store-box button {
+    width: 96%;
+    /* height:12vh; */
+    color: white;
+    font-size: 1vw;
+    word-break: break-all;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 1vw;
+    margin: 2%;
+    padding: 5% 5%;
+    cursor: pointer;
+}
+.play-store-box button:hover{
+    transform: scale(1.05);
+}
+.play-store-box a{
+    text-decoration: none;
+}
+.g_playLogo{
+font-size: 3rem;
+}
+.apple_Logo{
+    font-size: 2.5rem;
+}
+.g-play{
+    display:flex;
+    flex-direction: column;
+}
+
+.company-header,
+.contact-header,
+.legal-header {
+    /* border:2px solid red; */
+    /* height: 40vh; */
+    font-size: 1.07rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-transform: capitalize;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.legal-header{
+    justify-content: space-between;
+}
+.company-header>li,
+.contact-header>li,
+.legal-header>li {
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.company-header>li:hover,
+.contact-header>li:hover,
+.legal-header>li:hover {
+    font-weight: bold;
+}
+.divide__line{
+    background-color: gray;
+     height: 1px;
+      width: 86%; 
+      margin:auto;
+}
+.foot-container2 {
+    width: 88vw;
+    margin: 1% auto;
+}
+
+.foot-container2 h3 {
+    text-transform: uppercase;
+    color: gray;
+    margin: 0% 1%;
+    padding: 0% 1%;
+}
+
+.deliver-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0% 1%;
+    padding: 1%;
+}
+
+.col {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.col>li {
+    margin: 1vw 0;
+}
+
+.col>li:hover {
+    font-weight: 600;
+}
+
+.foot-container3 {
+    width:88vw;
+    margin:auto;
+    padding:1%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width:10%;
+}
+.logo a{
+    color:white;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+.footer__SwiggySymbol{
+font-size: 3rem;
+}
+.copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright_Symbol{
+    font-size: 1.2rem;
+}
+.social-media{
+    width:20%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1%;
+}
+.social-media a:nth-child(1) img,.social-media a:nth-child(4) img{
+    width:24px;
+    height:24px;
+}
+.social-media a:hover{
+transform: scale(1.20);
+}
+.linkedIn__Logo,.gitHub__Logo{
+    font-size: 2vw;
+} 
+
+@media (min-width:900px) and (max-width:1250px){
+    .list>li {
+        width:30%;
+        font-size: 1.05rem;
+    }
+    .list>li:nth-child(3){
+      width:40%;
+    }
+    .play-store-box button {
+        width:100%;
+        padding:5% 2%;
+    }
+    .g_playLogo{
+        font-size: 2.5rem;
+        }
+    .apple_Logo{
+        font-size: 2.25rem;
+        }
+    .g-play h2 ,.apple-play h2{
+     font-size: 1rem;
+    }
+.company-header>li,
+.contact-header>li,
+.legal-header>li {
+    font-size: 0.87rem;
+}
+
+.foot-container2 h3{
+    font-size: 1.15rem;
+}
+.col {
+    font-size: 0.9rem;
+}
+.social-media a:nth-child(1) img,.social-media a:nth-child(4) img{
+    width:22px;
+    height:22px;
+}
+.linkedIn__Logo,.gitHub__Logo{
+    font-size: 22px;
+} 
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .list>li {
+        width:30%;
+        font-size: 0.95rem;
+    }
+    .list>li:nth-child(3){
+      width:40%;
+    }
+    .play-store-box button {
+        width:120%;
+        padding:8% 2%;
+    }
+    .g_playLogo{
+        font-size: 1.8rem;
+        }
+    .apple_Logo{
+        font-size: 1.5rem;
+        }
+    .g-play h2 ,.apple-play h2{
+     font-size: 0.8rem;
+    }
+.company-header>li,
+.contact-header>li,
+.legal-header>li {
+    font-size: 0.75rem;
+}
+
+.foot-container2 h3{
+    font-size: 1rem;
+}
+.col {
+    font-size: 0.75rem;
+}
+.footer__SwiggySymbol{
+    font-size: 1.5rem;
+    }
+    .logo a h3{
+        font-size: 0.9rem;
+    }
+    .copyright{
+        font-size: 0.75rem;
+    }
+    .copyright_Symbol{
+        font-size: 1rem;
+    }
+    .social-media{
+        width:25%;
+    }
+    .social-media a:nth-child(1) img,.social-media a:nth-child(4) img{
+        width:18px;
+        height:18px;
+    }
+    .linkedIn__Logo,.gitHub__Logo{
+        font-size: 19px;
+    } 
+}
+
+@media (min-width:375px) and (max-width:600px){
+    .foot-container1,.foot-container2 {
+        width: 98vw;
+    }
+    .list>li {
+        width:30%;
+        font-size: 0.6rem;
+    }
+    .list>li:nth-child(3){
+      width:40%;
+    }
+    .play-store-box button {
+        width:105%;
+        padding:8% 2%;
+    }
+    .g_playLogo{
+        font-size: 1.45rem;
+        }
+    .apple_Logo{
+            font-size: 1.15rem;
+        }
+    .g-play h2 ,.apple-play h2{
+     font-size: 0.65rem;
+    }
+.company-header>li,
+.contact-header>li,
+.legal-header>li {
+    font-size: 0.5rem;
+}
+.play-store-box {
+    width:25%;
+}
+
+.foot-container2 h3{
+    font-size: 0.85rem;
+}
+.col {
+    font-size: 0.6rem;
+}
+.divide__line{
+      width: 98%;
+}
+.footer__SwiggySymbol{
+    font-size: 1.25rem;
+    }
+    .logo a h3{
+        font-size: 0.75rem;
+    }
+    .copyright{
+        font-size: 0.6rem;
+    }
+    .copyright_Symbol{
+        font-size: 0.85rem;
+    }
+    .social-media{
+        width:25%;
+    }
+    .social-media a:nth-child(1) img,.social-media a:nth-child(4) img{
+        width:12px;
+        height:12px;
+    }
+    .linkedIn__Logo,.gitHub__Logo{
+        font-size: 12px;
+    } 
+
+}
+

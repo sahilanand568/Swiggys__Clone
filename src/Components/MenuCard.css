@@ -1,0 +1,409 @@
+.header__Menu {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    line-height: 1.6rem;
+    border-bottom:1px dashed #d9d9da;
+    padding: 1% 0%;
+    margin: 1% auto;
+}
+
+.header__MenuBox1 {
+    width: 62%;
+    line-height: 1.6rem;
+}
+
+.header__MenuBox1 p {
+    font-size: .93rem;
+    color: #7e808c;
+}
+
+.header__MenuBox2 {
+    border: 1px solid #e9e9eb;
+    border-radius: 0.5vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 5px #f9f9f9;
+    padding:1%;
+}
+
+.ratingBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a9abb2;
+    /* padding:10% 10%; */
+}
+
+.header__MenuBox2 p {
+    font-size: 11px;
+    color: #8b8d97;
+}
+.info__Box{
+    width: 60%;
+    display:flex;
+    padding: 1% 0%;
+    margin: 1% auto;
+}
+.info__Box h3{
+    font-size: 1.1rem;
+    display:flex;
+    align-items: center;
+    margin-right: 2%;;
+}
+.rupee__Icon{
+    font-size: 1.5rem;
+}
+.offers{
+    width:60%;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin:2% auto;
+    /* border:2px solid red; */
+}
+.vegOnly{
+    width:60%;
+    display:flex;
+    align-items: center;
+    border-bottom:1px solid #a9abb2;
+    margin:auto;
+    padding-bottom:2%;
+}
+.vegOnly h4{
+    color:#282c3f;
+}
+.vegOnly__Box{
+    width:7%;
+    height:3vh;
+    display:flex;
+    align-items: center;
+    background-color: #d4d5d9;
+    border-radius: 0.25vw;
+    padding:0.5%;
+    margin: auto 5%;
+    cursor:pointer;
+}
+.empty__Box{
+    width: 40%;
+    height: 2vh;
+    background-color: white;
+    border-radius:0.25vw;
+}
+.menuItems__heading{
+width:60%; 
+margin: 1% auto
+}
+.new__logo{
+    position:relative;
+    left:70%;
+    width:30%;
+}
+.logo{
+    width:3%;
+}
+.blank__Space {
+    width: 62%;
+    height: 3vh;
+    background-color: #f1f1f6;
+    margin: 1% auto;
+}
+
+.food__Box {
+    width: 60%;
+    font-family: arial, Helvetica Neue, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a9abb2;
+    padding: 1% 0%;
+    margin: auto;
+}
+
+.food-item {
+    width: 80%;
+}
+
+.food-item h4 {
+    font-weight: 600;
+}
+
+.food-item span {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5vw;
+}
+
+.food-item p {
+    margin-top: 14px;
+    line-height: 1.3;
+    color: rgba(40, 44, 63, .45);
+    letter-spacing: -.3px;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+}
+
+.food-item button {
+    color: #60b246;
+    width: 10%;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 0.25vw;
+    padding: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.food-item button:hover {
+    box-shadow: 0px 2px 8px #d4d5d9;
+    ;
+}
+
+.media__Image {
+    width: 12%;
+    height: 15vh;
+    object-fit: cover;
+    /* border:1px solid red; */
+    border-radius: 1vw;
+}
+
+.fssai__Box1 {
+    width: 60%;
+    background-color: #f1f1f6;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    padding: 1%;
+    margin: auto;
+}
+
+.fssai__Box1 p {
+    color: #93959f;
+    font-size: 0.93rem;
+    margin-left: 2%;
+}
+
+.fssai__Box2 {
+    color: #93959f;
+    width: 60%;
+    background-color: #f1f1f6;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #a9abb2;
+    padding: 1%;
+    padding-bottom: 10%;
+    margin: auto;
+}
+
+@media (min-width:800px) and (max-width:1250px){
+    .header__Menu,.info__Box,.offers, .vegOnly ,.food__Box,.menuItems__heading,.fssai__Box1,.fssai__Box2 {
+        width:70%;
+    }
+    .header__MenuBox1 h3{
+        font-size:1.1rem;
+    }
+    .header__MenuBox1 p{
+        font-size:0.87rem ;
+    }
+    .header__MenuBox2 h4{
+        font-size: 0.93rem;
+    }
+    .header__MenuBox2 p{
+      font-size: 10px;
+    }
+    .info__Box h3{
+        font-size: 0.95rem;
+    }
+    .info__Box h3 path{
+        font-size:1.33rem;
+    }
+    .rupee__Icon{
+        font-size: 1.33rem;
+    }
+    .vegOnly h4{
+        font-size: 1rem;
+    }
+    .vegOnly__Box{
+        width:7%;
+        height:3vh;
+    }
+    .blank__Space{
+      width:72%;
+    }
+    .logo{
+        width:4%;
+    }
+    .food-item h4 {
+        font-size: 1rem;
+    }
+    .food-item span{
+        font-size: 0.9rem;
+    }
+    .food-item p{
+        font-size: 0.9rem;
+    }
+    .food-item button{
+        font-size: 0.9rem;
+    }
+    
+.media__Image {
+    width: 15%;
+    height: 15vh;
+}
+}
+
+@media (min-width:600px) and (max-width:800px){
+    .header__Menu,.info__Box,.offers, .vegOnly ,.food__Box,.menuItems__heading,.fssai__Box1,.fssai__Box2 {
+        width:78%;
+    }
+    .header__MenuBox1 h3{
+        font-size:1rem;
+    }
+    .header__MenuBox1 p{
+        font-size:0.8rem ;
+    }
+    .header__MenuBox2{
+    justify-content: space-evenly;
+    }
+    .header__MenuBox2 h4{
+        font-size: 0.88rem;
+    }
+    .header__MenuBox2 p{
+      font-size: 9px;
+    }
+    .info__Box h3{
+        font-size: 0.85rem;
+    }
+    .info__Box h3 path{
+        font-size:1rem;
+    }
+    .rupee__Icon{
+        font-size: 1.2rem;
+    }
+    .vegOnly h4{
+        font-size: 0.88rem;
+    }
+    .vegOnly__Box{
+        width:7%;
+        height:2.6vh;
+    }
+    .empty__Box{
+        width: 40%;
+        height: 1.7vh;
+    }
+    .menuItems__heading{
+        font-size: 0.95rem;
+    }
+    .blank__Space{
+      width:80%;
+    }
+    .logo{
+        width:3%;
+    }
+    .food-item h4 {
+        font-size: 0.9rem;
+    }
+    .food-item span{
+        font-size: 0.78rem;
+    }
+    .food-item p{
+        font-size: 0.78rem;
+    }
+    .food-item button{
+        font-size: 0.78rem;
+    }
+    .media__Image {
+        width: 18%;
+        height: 14vh;
+    }
+    .fssai__Box1 img{
+        object-fit: contain;
+        width:14%;
+    }
+    .fssai__Box1 p,.fssai__Box2 p {
+        font-size: 0.78rem;
+    }
+    .fssai__Box2 h4{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:600px){
+    .header__Menu,.info__Box,.offers, .vegOnly ,.food__Box,.menuItems__heading,.fssai__Box1,.fssai__Box2 {
+        width:86%;
+    }
+    .header__MenuBox1 h3{
+        font-size:0.88rem;
+    }
+    .header__MenuBox1 p{
+        font-size:0.7rem ;
+    }
+    .header__MenuBox2{
+        justify-content: space-evenly;
+    }
+    .header__MenuBox2 h4{
+        font-size: 0.8rem;
+    }
+    .header__MenuBox2 p{
+      font-size: 8px;
+    }
+    .info__Box h3{
+        font-size: 0.75rem;
+    }
+    .rupee__Icon{
+        font-size: 1.05rem;
+    }
+    .vegOnly h4{
+        font-size: 0.75rem;
+    }
+    .vegOnly__Box{
+        width:8%;
+        height:2.3vh;
+    }
+    .empty__Box{
+        width: 40%;
+        height: 1.5vh;
+    }
+    .menuItems__heading{
+        font-size: 0.83rem;
+    }
+    .blank__Space{
+      width:88%;
+    }
+    .logo{
+        width:4%;
+    }
+    .food__Box{
+        align-items: center;
+    }
+    .food-item h4 {
+        font-size: 0.8rem;
+    }
+    .food-item span{
+        font-size: 0.6rem;
+    }
+    .food-item p{
+        font-size: 0.6rem;
+    }
+    .food-item button{
+        font-size: 0.65rem;
+        width:13%;
+    }
+    .media__Image {
+        width: 24%;
+        height: 10vh;
+    }
+    .fssai__Box1 img{
+        object-fit: contain;
+        width:11%;
+    }
+    .fssai__Box1 p,.fssai__Box2 p {
+        font-size: 0.65rem;
+    }
+    .fssai__Box2 h4{
+        font-size: 0.7rem;
+    }
+    
+}

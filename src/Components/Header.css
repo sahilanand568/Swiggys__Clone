@@ -1,0 +1,195 @@
+header{
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1.2%;
+    /* border:1px solid black; */
+    box-shadow: 2px 2px 10px #171a2927;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.swiggy__Box{
+    width:35%;
+    /* border:1px solid red; */
+    display:flex;
+    align-items: center;
+}
+.swiggy__Box p{
+    margin-left: 9%;
+}
+.swiggy-symbol{
+    stroke: currentColor;
+    fill: #fc8019;
+    stroke-width: 0;
+    cursor:pointer;
+    transition:transform 0.25s ease-in-out;
+    
+}
+
+.swiggy-symbol:hover{
+    transform: scale(1.15);
+}
+
+header > ul{
+    width:55%;
+    font-family: Figtree,sans-serif;
+    font-weight: 550;
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header ul  a {
+    text-decoration: none;
+    color:#3D4152;
+    /* border:2px solid green; */
+    width:12%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ header ul a:hover{
+    color:#fc8019;
+    stroke: #fc8019;
+    fill: #fc8019;
+    stroke-width: 1px;
+    
+}
+
+
+.icon:hover{
+    stroke:#fc8019 ;
+    fill: #fc8019;
+    stroke-width: 0px;
+}
+.cart-icon{
+    fill: #fff;
+    stroke-width: 2px;
+    stroke: #282c3f;
+}
+.cart-icon:hover{
+    stroke: currentColor;
+    /* fill: #fc8019; */
+    stroke-width: 2px;
+}
+
+.address{
+    /* border:2px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.drop__Down{ 
+    font-size: 1.2rem ;
+    cursor: pointer}
+
+@media (min-width:800px) and (max-width:1250px){
+
+    .swiggy__Box{
+        width:35%;
+    }
+    .swiggy-symbol{
+     width:30px;
+     height:44px   
+    }
+    .icon,.cart-icon{
+        width:18px;
+        height:18px;
+    }
+    header > ul{
+        width:60%; 
+    }
+    header ul  a {
+        width:15%;
+        justify-content: space-evenly;
+    }
+    header ul a span{
+    font-size: 0.9rem;
+    }
+    .address{
+        font-size: 0.8rem;
+    }
+    .address span{
+        font-size: 0.7rem;
+    }
+    .drop__Down{ 
+        font-size: 1rem ;
+    }
+}
+@media (min-width:600px) and (max-width:800px){
+   
+    .swiggy__Box{
+        width:35%;
+        /* justify-content: space-between; */
+    }
+    .swiggy__Box p{
+        margin-left: 6%;
+    }
+    .swiggy-symbol{
+        width:27px;
+        height:39px   
+       }
+    .icon,.cart-icon{
+        width:16px;
+        height:16px;
+    }
+    header > ul{
+        width:65%; 
+    }
+    header ul  a {
+        width:17%;
+        justify-content: space-evenly;
+    }
+    header ul a span{
+        font-size: 0.8rem;
+        }
+    .address{
+        font-size: 0.7rem;
+    }
+    .address span{
+        font-size: 0.6rem;
+        text-overflow: ellipsis;
+    }
+    .drop__Down{ 
+        font-size: 0.8rem ;
+    }
+}
+@media (min-width:375px) and (max-width:600px){
+
+    
+    .swiggy__Box{
+        width:20%;
+    }
+    .swiggy-symbol{
+        width:20px;
+        height:30px   
+       }
+    .icon{
+        width:12px;
+        height:12px;
+    }
+    .cart-icon{
+        width:11px;
+        height:11px;
+    }
+    header > ul{
+        width:78%;
+    }
+    header ul  a {
+        width:17%;
+        justify-content: space-evenly;;
+    }
+    header ul a span{
+        font-size: 0.66rem;
+        }
+    .address{
+        font-size: 0.6rem;
+    }
+    .address span{
+        display:none;
+    }
+
+}

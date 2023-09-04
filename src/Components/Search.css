@@ -1,0 +1,111 @@
+.search__Page{
+    width:60vw;
+    margin:auto;
+    /* border:1px solid red; */
+}
+.search__Page h2{
+    padding:2%;
+}
+.input__Box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid rgb(196, 191, 191);
+    border-radius: 0.25vw;
+    padding:1% 2%;
+    margin: 4% 0%;
+}
+.input__Box input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-weight: 600;
+}
+
+.popularCuisine__Images{
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+}
+.popularCuisine__Images:hover{
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    }
+.popularCuisine__Images:hover::-webkit-scrollbar {
+    width: 1vw;
+    height:1.5vh;
+}
+.popularCuisine__Images:hover::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 1vw;
+}
+.popularCuisine__Images:hover::-webkit-scrollbar-thumb {
+    background: rgb(193, 193, 193); 
+    border-radius: 1vw;
+  }
+
+.popularCuisine__Images img{
+    width:11%;
+    object-fit: contain;
+    cursor:pointer;
+}
+
+.search__BoxCard a div{
+    width:90%;
+    display:flex;
+    align-items:center;
+    margin-bottom:2%;
+    /* border:2px solid red; */
+}
+.search__BoxCard a div img{
+    border-radius:0.5vw;
+}
+.search__BoxCard a div h3{
+    font-weight:400;
+    padding-left:2%;
+}
+@media (min-width:600px) and (max-width:900px){
+    .search__Page{
+        width:75vw;
+    }
+    .popularCuisine__Images img{
+        width:14%;
+    }
+
+    .search__Page h2{
+        font-size: 1.35rem;
+    }
+    .search__BoxCard a div img{
+        width:14%;
+        object-fit: contain;
+        border-radius: 0.75vw;
+    }
+    .search__BoxCard a div h3{
+     font-size: 1rem;
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:600px){
+
+    .search__Page{
+        width:85vw;
+    }
+
+    .popularCuisine__Images img{
+        width:17%;
+    }
+    .search__Page h2{
+        font-size: 1.1rem;
+    }
+     
+    .search__BoxCard a div img{
+        width:12%;
+        object-fit: contain;
+      border-radius: 1vw;
+    }
+    .search__BoxCard a div h3{
+     font-size: 0.8rem;
+    }
+
+}

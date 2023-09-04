@@ -1,0 +1,46 @@
+
+.accordian__Main{
+    width:90%;
+    border-bottom:1px solid #d4d5d9;
+    margin-Top:5%;
+    padding-bottom: 2%;
+}
+
+.accordian__header{
+    display:flex;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+.accordian__header h3{
+    color:#3d4152;
+    font-weight:400;
+    cursor:pointer;
+}
+.accordian__header h3:hover{
+    color:#fc8019;
+}
+.accordian__Text{
+    color:#686b78;
+    line-height:1.4;
+    font-size:0.88rem;
+    margin-top:5%
+}
+@media (min-width:600px) and (max-width:950px){
+.accordian__Main{
+    width:96%;
+}
+.accordian__Text{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+}
+@media (min-width:375px) and (max-width:600px){
+    .accordian__Main{
+        width:96%;
+    }
+    .accordian__Text{
+        text-align: justify;
+        font-size: 0.7rem;
+    }
+    }

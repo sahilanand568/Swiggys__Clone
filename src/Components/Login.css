@@ -1,0 +1,123 @@
+@keyframes modalBox{
+    from{left:100%}
+    to{left:60%}
+}
+@keyframes modalBoxRev{
+    from{left:60%}
+    to{left:100%}
+}
+.modalLoginBox{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 30%;
+    height:100%;
+    animation-name: modalBox;
+    animation-duration: .25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    /* animation-direction: normal; */
+    display:flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    background-color: white;
+    outline:none;
+    border:none;
+    box-shadow: 24;
+    padding:2% 3%;
+}
+.modalBox_Top{
+    display:flex;
+}
+.modalBox_Top div{
+    width:75%;
+    padding:0;
+    border:none;
+}
+.modalBox_Top div p{
+    width:75%;
+    font-size: 0.8rem;
+    margin-top: 4%;
+    /* padding:1%; */
+}
+
+.input__Boxss input{
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #d4d5d9;
+    padding: 6% 3%;
+}
+
+.modalLoginBox button{
+    color:white;
+    width:100%;
+    background-color: #fc8019;
+    border:none;
+    text-align: center;
+    margin-top:5%;
+    padding:1vw 1.5vw;
+    cursor:pointer;
+}
+.modalLoginBox button:hover{
+    box-shadow: 0 1px 3px 2px rgba(0,0,0,.12);
+    
+}
+.login__Statement{
+        font-size:0.8rem;
+        color:#686b78;
+}
+
+@media (min-width:700px) and (max-width:1050px){
+
+    .modalLoginBox{
+        width:40%;
+    }
+    .modalBox_Top{
+
+    }
+    .modalBox_Top div h2{
+     font-size: 1.2rem;
+    }
+    .input__Boxss input{
+        padding:3%;
+    }
+    .login__Statement{
+        font-size: 0.75rem;
+    }
+}
+@media (min-width:500px) and (max-width:700px){
+
+    .modalLoginBox{
+        width:50%;
+    }
+    .modalBox_Top div h2{
+        font-size: 1.05rem;
+       }
+    .modalBox_Top div p {
+        font-size: 0.8rem;
+       }
+    .input__Boxss input{
+        padding:3%;
+    }
+    .login__Statement{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width:350px) and (max-width:500px){
+    .modalLoginBox{
+        width:65%;
+    }
+    .modalBox_Top div h2{
+        font-size: 0.95rem;
+       }
+       .modalBox_Top div p {
+        font-size: 0.7rem;
+       }
+    .input__Boxss input{
+        padding:3%;
+    }
+    .login__Statement{
+        font-size: 0.7rem;
+    }
+}

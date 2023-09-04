@@ -1,0 +1,263 @@
+.emptyCartPage-1{
+    /* height:88vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
+  
+}
+.emptyCartPage-1 img{
+    height:33vh;
+}
+.emptyCartPage-1 h3{
+    color:#535665;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.emptyCartPage-1 p{
+    color:#7e808c;
+    font-size: 0.8rem;
+    margin-top: 1%;
+}
+.emptyCartPage-1 a button{
+    color:white;
+    background-color: #fc8019;
+    border:none;
+    text-align: center;
+    margin-top:10%;
+    padding:0.75vw 1.5vw;
+    cursor:pointer;
+}
+.emptyCartPage-1 a button:hover{
+    box-shadow: 0px 4px 14px #d4d5d9;
+}
+
+.emptyCartPage-2{
+    /* height:88vh; */
+    background-color: #e9ecee;
+    padding-bottom: 5%;
+}
+.mainBox1 {
+    /* height: 88vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: #e9ecee;
+    padding: 2% 4%;
+}
+.box3{
+    width:30%;
+    box-sizing: border-box;
+}
+ .cartItems{
+    width:90%;
+    background-color: white;
+    /* border:1px solid red; */
+    padding:5% 0% 5% 5%;
+    margin-left: 2vw;
+} 
+.cartItems img{
+    width:20%;
+}
+.bill__Box{ 
+    box-sizing: border-box;
+    word-wrap: break-word;
+    /* height:65vh; */
+    /* border:1px solid red; */
+    overflow-y: scroll;
+    padding:5% 0%;
+    margin:2%;
+}
+
+.billBox__div{
+    /* width:90%; */
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-between; */
+    /* border:1px solid red; */
+    margin-top: 1vw;
+}
+.item__Description{
+    width:50%;
+    display:flex;
+    align-items: flex-start;
+    font-size: 0.85rem;
+}
+.item__Description img{
+    margin-right: 2%;
+}
+.item__Description p{
+    font-size: 0.9rem;
+     width: 80%;
+}
+
+.incrementDecrement{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d4d5d9;
+    color:#60B246;
+    padding:2% ;
+    cursor:pointer;
+    /* margin:0% 1vw; */
+}
+.suggestion__Box{
+    width:90%;
+    background-color: #f9f9f9;
+    outline:none;
+    border:none;
+    padding:4% 5%;
+    margin-top: 4%;
+}
+.noContact__Delivery{
+    width:90%;
+    border:1px solid #a9abb2;
+    padding: 7%;
+    margin-top: 5%;
+}
+.noContact__Delivery span, .noContact__Delivery p{
+    font-size: 0.9rem;
+}
+.cancellation__Policy{
+    width:90%;
+    background-color: white;
+    padding:5%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.cancellation__Policy div{
+    border:1px dotted #d3d3d3;
+    border-radius: 0.25vw;
+    padding:5%;
+    margin:2%;
+}
+.cancellation__Policy div p{
+    font-size: 0.75rem;
+    margin:1vw 0;
+}
+.cancellation__Policy div a{
+    color:#EC6148;
+    font-size:0.85rem;
+    font-weight: 600;
+    border-bottom:1px dotted #EC6148;
+    text-decoration:none
+
+}
+.bill__Details{
+    margin-top: 5%;
+}
+.to__Pay{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+.commonStyle{
+    width:90%;
+    font-size: 0.85rem;
+    display:flex;
+    justify-content: space-between;
+    padding:2%;
+    margin:2% 0%;
+}
+
+@media (min-width:800px) and (max-width:1240px){
+    .emptyCartPage-1 img{
+        height:30vh;
+    }
+    .box3{
+        width:38%; 
+    }
+    .bill__Box input,.billBox__div p,.bill__Details p,.cancellation__Policy div p,.cancellation__Policy div a{
+        font-size: 0.8rem ;
+    }
+    .incrementDecrement{
+        width:15%;
+    }
+    .noContact__Delivery{
+        padding:5%
+    }
+    .noContact__Delivery span, .noContact__Delivery p{
+        font-size: 0.8rem;
+    }
+    .to__Pay h4,.cancellation__Policy div h4{
+        font-size: 0.9rem;
+    }
+    .cancellation__Policy{
+        padding:4%;
+    }
+}
+@media (min-width:600px) and (max-width:800px){
+    .emptyCartPage-1 img{
+        height:27vh;
+    }
+    .emptyCartPage-1 h3{
+        font-size: 0.9rem;
+    }
+    .emptyCartPage-1 p{
+        font-size: 0.7rem; 
+    }
+    .emptyCartPage-1 a button{
+        font-size: 0.7rem;
+        padding:1vw 1.75vw;
+    } 
+    .box3{
+        width:45%; 
+    }
+    .bill__Box input,.billBox__div p,.bill__Details p,.cancellation__Policy div p,.cancellation__Policy div a{
+        font-size: 0.7rem ;
+    }
+    .incrementDecrement{
+        width:17%;
+    }
+    .noContact__Delivery{
+        padding:4%
+    }
+    .noContact__Delivery span, .noContact__Delivery p{
+        font-size: 0.7rem;
+    }
+    .to__Pay h4,.cancellation__Policy div h4{
+        font-size: 0.78rem;
+    }
+    .cancellation__Policy{
+        padding:2%;
+    }
+}
+@media (min-width:375px) and (max-width:600px){
+    .emptyCartPage-1 img{
+        height:24vh;
+    }
+    .emptyCartPage-1 h3{
+        font-size: 0.8rem;
+    }
+    .emptyCartPage-1 p{
+        font-size: 0.6rem; 
+    }
+    .emptyCartPage-1 a button{
+        font-size: 0.6rem;
+        padding:1.5vw 2vw;
+    }
+    .box3{
+        width:50%; 
+    }
+    .bill__Box input,.billBox__div p,.bill__Details p,.cancellation__Policy div p,.cancellation__Policy div a{
+        font-size: 0.6rem ;
+    }
+    .incrementDecrement{
+        width:23%;
+    }
+    .noContact__Delivery{
+        padding:3%
+    }
+    .noContact__Delivery span, .noContact__Delivery p, .noContact__Delivery input{
+        font-size: 0.6rem;
+    }
+    .to__Pay h4,.cancellation__Policy div h4{
+        font-size: 0.67rem;
+    }
+    .cancellation__Policy{
+        padding:1%;
+    }
+}

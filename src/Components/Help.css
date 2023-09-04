@@ -1,0 +1,131 @@
+.help__mainBox{
+    height:100vh;
+    color:white;
+    background-color:#37718e;
+    margin-bottom: 2%;
+}
+
+.help__TopBox h1{
+margin-left: 14%;
+padding-top: 2%;
+}
+
+.help__TopBox p{
+    margin-left: 14%;
+    padding-bottom: 2%;
+}
+.help__InfoBox{
+    box-sizing: border-box;
+    color:black;
+    width:80%;
+    /* min-height:75vh; */
+    background: white;
+    display:flex;
+    border-right: 1px solid black;
+    margin:3% auto;
+}
+
+.help__ListBox{
+    width:25%;
+    min-height: 75vh;
+    background-color: #edf1f7;
+    padding:2% 0% 2% 2%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.help__ListBox ul{
+    width:100%;
+}
+
+.help__ListBox ul a{
+    list-style: none;
+    text-decoration: none;
+    /* text-align: center; */
+    color:black;
+    font-weight: 600;
+}
+
+.help__ListBox ul a li{
+    box-sizing: border-box;
+    width:95%;
+    /* border:2px solid red; */
+    padding:10% 15%;
+    margin-left: 5%;
+}
+
+.help__ListBox ul a li[tabindex]:focus{
+    background-color:white;
+    /* color:orange; */
+}
+
+.help__Outlet{
+    width:60%;
+    /* background-color: #edf1f7; */
+    padding:2% 0% 2% 2%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.help__Outlet h2{
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (min-width:600px) and (max-width:950px){
+
+    .help__TopBox h1{
+        font-size: 1.35rem;
+        margin-left: 5%;
+    }
+    .help__TopBox p{
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+    .help__InfoBox{
+        width:96%;
+    }
+    .help__ListBox{
+      width:22%;
+      padding:1% 0% 1% 1%;
+      margin-left: 3%;
+    }
+    .help__ListBox ul a li{
+        padding:10% 10%;
+        margin:auto;
+    }
+    .help__Outlet{
+        font-size: 0.8rem;
+        width:70%;
+        padding:1% 0% 1% 1%;
+        margin-left: 3%;
+    }
+}
+@media (min-width:375px) and (max-width:600px){
+    .help__TopBox h1{
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+    .help__TopBox p{
+        font-size: 0.75rem;
+        margin-left: 5%;
+    }
+    .help__InfoBox{
+        width:96%;
+    }
+    .help__ListBox{
+      width:20%;
+      padding:1% 0% 1% 1%;
+      margin-left: 2%;
+    }
+    .help__ListBox ul a li{
+        font-size: 0.75rem;
+        padding:10% 7%;
+        margin:auto;
+    }
+    .help__Outlet{
+        font-size: 0.7rem;
+        width:75%;
+        padding:0;
+        margin-left: 2%;
+    }
+}
